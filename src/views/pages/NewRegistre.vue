@@ -359,7 +359,7 @@ export default {
       } else {
         this.myDatas = {
           empresa: this.empresa.label,
-          data: strDate(this.reportDate),
+          data: (strDate(this.reportDate) * 1),
           hrInicio: this.reportTimeStart,
           hrFim: this.reportTimeEnd,
           linha: this.linha.label,
